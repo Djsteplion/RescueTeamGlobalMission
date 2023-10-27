@@ -1,0 +1,130 @@
+@media screen and (max-width:1024px){
+
+.MENU{
+    padding-top:8px;
+    padding-right: 20px;
+    display: block;
+}
+
+  
+/* Home Container */
+
+.logo img{
+    width: 32.5px;
+    height: 32.5px;
+}  
+
+.teamName{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+#team{
+    padding-right: 5px;
+    color:white;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+
+.navBar{
+   display: none;
+}
+
+.navBar a{
+    display: none;
+}
+
+#just{
+    border-top: 1px solid white;
+    padding-top: 5px;
+}
+
+#life{
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+#didYou{
+    font-size: 14px;
+}
+
+#Justcan{
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.heroTxt span{
+    line-height: 45px;
+}
+
+
+
+/* This is the Div containing "About Us" */
+.pastor {
+    width: 200%;
+}
+
+.pastor img{
+    width: 100%;
+}
+
+
+
+
+/* This is the Div containing "HOW TO GET INVOLVED" */
+
+.howTo{
+    margin-top: 80px;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    padding-left: 40px;
+    width: 100%;   
+}
+
+.getIn{
+    width: 75%;
+}
+
+.ourNeeds{
+    width: 90%;
+}
+
+
+/* This is the div containing the bank account details */
+.give{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+
+.detail{
+    padding-right: 30px;
+ }
+
+ .detail p{
+    padding-top: 13px;
+}
+
+
+/* This is the div that contains "contact us details" container*/
+
+.contactDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    padding-left: 40px;
+}
+
+
+
+}

@@ -1,0 +1,183 @@
+@media screen and (max-width:600px){
+
+.mySidenav a{
+    font-size: 11px;
+ }
+
+
+
+/* Home Container */
+
+.logo img{
+    width: 28px;
+    height: 28px;
+}  
+
+.navigation{
+    padding-left: 5px;
+}
+
+#team{
+    padding-right: 2.5px;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.9px;
+    font-weight: 400;
+}
+
+.MENU{
+    padding-top:14.6px;
+    padding-right: 5px;
+    display: block;
+}
+
+.menu{
+   font-size: 15px!important;
+}
+
+
+.heroTxt{
+    margin-top: 65px;
+    padding-bottom: 150px;
+}
+
+.heroTxt span{
+    line-height: 35px;
+}
+
+#didYou{
+    font-size: 11px;
+}
+
+#Justcan{
+    font-size: 21px;
+    font-weight: 600px;
+}
+
+
+/* Div Containing "Do you know " */
+
+#dyk{
+    color: orangered;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.doYou{
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  
+  .doYou p{
+      font-size: 11px;
+      line-height: 35px;
+      color: black;
+      opacity: 0.9;
+  }
+
+
+  /* This is the Div containing "About Us" */
+.aboutus{
+    display: block;
+    
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.pastor {
+    width: 100%;
+    padding-left: 30px;
+}
+
+.pastor img{
+    width: 100%;
+}
+
+.overlay{
+    color: white;
+    width: auto;
+    padding-left: 20px;
+}
+
+.overlay p{
+    line-height:35px;
+}
+
+/* This is the div containing the gallery */
+.swiper-pagination{
+    display: none;
+}
+
+
+/* This is the Div containing "HOW TO GET INVOLVED" */
+
+.howTo{
+    margin-top: 80px;
+    display: block;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;  
+}
+
+.howTo p{
+    font-size: 11px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.getIn{
+    width: 100%;
+}
+
+.ourNeeds{
+    padding-top: 20px;
+    width: 100%;
+}
+
+
+/* This is the div containing the bank account details */
+.give{
+    margin-left: -7px;
+    display: block;
+    padding-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: black;
+}
+
+.detail h3{
+    line-height: 35px;
+    font-size: 13.5px;
+    letter-spacing: 0.9px;
+}
+
+.detail p{
+    font-size: 13px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+/* This is the div that contains "contact us details" container*/
+
+.contact{
+    padding-left: 20px;
+}
+
+.copyright{
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+
+
+
+
+}

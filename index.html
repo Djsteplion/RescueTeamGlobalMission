@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rescue Team Global Ministry Website</title>
+
+    <!--Link to animate.css-->
+    <link rel="stylesheet" href="css/animate.min.css">
+
+     <!--Link to stylesheet for Desktop device-->
+    <link rel="stylesheet" href="css\style1.css" >
+
+    <!--Link to stylesheet for tablet devices-->
+    <link rel="stylesheet" href="css\style2.css" >
+
+    <!--Link to stylesheet for mobile devices-->
+    <link rel="stylesheet" href="css\style3.css" >
+
+    <!---<a href="https://www.freepik.com/free-photo/brick-wall-painted-white_1038671.htm#query=white%20brick%20wall&position=0&from_view=keyword&track=ais">Image by kues1</a> on Freepik-->
+    <!--<a href="https://www.freepik.com/free-photo/brick-wall-painted-white_1038671.htm#query=white%20brick%20wall&position=0&from_view=keyword&track=ais">Image by kues1</a> on Freepik-->
+   
+   
+    <link href="css/swiper.css" rel="stylesheet">
+
+    <!---link to font awesome on this laptop, i must change it to the online link, when uploading to github-->
+    <link rel="stylesheet" href="C:\Users\User\Desktop\HTML Crashcourse\STEVO\Naishare website\Other folder\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.css">
+</head>
+<body>
+
+    <!--This is the div that contains the menu for tablet and mobile phones-->
+    <div class="mySidenav" id="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" class="linkss">HOME</a>
+        <a href="#aboutUs" class="linkss">ABOUT US</a>
+        <a href="#gallery" class="linkss">GALLERY</a>
+        <a href="#getInv" >HOW TO GET INVOLVED</a>
+        <a href="#give" class="linkss">GIVE</a> 
+        <a href="#contactUs" class="linkss">CONTACT US</a>
+        <div style="display:flex; justify-content: center; align-items: center;" >
+            <span>
+                <a href="#"><i class="fa fa-facebook" id="face"></i></a>
+            </span>
+            <span>
+                <a href="#"><i class="fa fa-inbox"></i></a>
+            </span>
+        </div>
+    </div>
+    
+    
+    <!--- This the div that contains the Home Page-->
+    <div class="hero-section">
+        <div class="hero" style="background-image:url('C:/Users/User/Desktop/HTML Crashcourse/STEVO/Rescue Team Mission/images/bgImg.jpg');
+        background-size: cover; background-repeat: no-repeat; 
+        ">
+
+            <div class="navigationBar">
+                <div class="navigation">
+                    <div class="logoAndName">
+                        <div class="Ln">
+                            <div class="logo">
+                                <img src="images\resTeamlogo.png" alt="Rescue Team Global Ministry Logo">
+                            </div>
+                            <div class="teamName">
+                                <span id="team">Rescue</span>
+                                <span id="team">Team</span>
+                                <span id="team">Global</span>
+                                <span id="team">Ministry</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navBar">
+                        <a href="#" id="home">Home</a>
+                        <a href="#aboutUs">About Us</a>
+                        <a href="#gallery">Gallery</a>
+                        <a href="#getInv">How to Get Involved</a>
+                        <a href="#give">Give</a>
+                        <a href="#contactUs">Contact Us</a>
+                    </div>
+                    <div class="MENU">
+                        <div style="color:white; font-size:20px; cursor:pointer" class="menu" onclick="openNav()">
+                            &#9776
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Hero Text Content-->
+            <div class="heroText">
+                <div class="heroTxt">
+                    <span id="Justcan"  class="Justcan animate__animated animate__fadeInLeft">
+                        <span id="just">Just</span> A little Care, Can
+                    </span>
+                    <span id="Justcan"  class="Justcan animate__animated animate__fadeInRight" style="color: orangered;">
+                         Save A <span id="life">life</span>
+                    </span>
+                    <span id="didYou">
+                        Did you know?
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--This is the Div containing "Do You Know"-->
+    <div class="doYouKnow">
+        <div class="doYou">
+            <h1 id="dyk" class="dyk  animate__animated animate__pulse">
+                Do You Know ?
+            </h1>
+            <p class="p1">
+               CARING is one the attributes of God.He demonstrated
+               this in the Garden of Eden when Adam and Eve offended him.   
+               He made coats from animal skins for them, in order to cover their
+               nakedness(This is a pure act of care [Gen 3:21]).
+            </p>
+            <p>
+                HAVE YOU CARED FOR SOMEONE TODAY? If Yes, Glory be to God; but if No, 
+                rise up now and act.
+            </p>
+            <p class="p2">
+                God is concerned about your care, and you are also required to be concerned 
+                about the care of others.Your little care for that rural missionary, widow, orphan,
+                 or less priviledged, can still bring out the best out of their lives(3 John 1:2).
+            </p>
+            <p>
+               Remember that your reward is great, here on earth and in eternity (Mattew 10:42; Mark 9:41).
+            </p>
+        </div>
+    </div>
+
+     <!--This is the Div containing "About Us"-->
+     <div class="aboutUs">
+        <div class="aboutus" id="aboutUs">
+            <div class="pastor">
+                <img src="C:\Users\User\Desktop\HTML Crashcourse\STEVO\Rescue Team Mission\images\pstDemola.png">
+            </div>
+            <div class="Overlay">
+                <div class="overlay">
+                <h3 style="color: orangered;">ABOUT US</h3>    
+                <p class="pA">
+                    The Steward In Charge, in person of Pastor 
+                    Ademola Stephen; is a man who received the call 
+                    of God, fourteen(14) years after been saved in september 1984.
+                    He was baptized in the Holy Ghost in 1986. 
+                </p>
+                <p>
+                    His Service life was under a respectful father in the
+                    land untill July 2013, when the Lord comissioned him into
+                    a new assignment for humanity through an uncontrollable 
+                    burden for God's project: "RESCUE TEAM MISSION".
+                </p>
+                <p>
+                    Rescue Team Global Mission is an assignment to the
+                    welfare of the village missionaries, widows, widowers,
+                    orphans and the physically challenged.
+                </p>
+                <p>
+                    The ministry was established and inaugurated on the
+                    8th day of march 2014, witnessed by some fathers
+                    of faith in the land and colleagues in the work
+                    of the ministry and several children of God.
+                </p>
+                <p>
+                    Shortly after the inauguration, the team members
+                    being five in number, launched to the field every
+                    weekend of the month. Within April to December, the 
+                    team was able to move around 8 villages for the
+                    distribution of relief materials to the missionaries
+                    and the villagers; training them on 3 different skills
+                    for free to empower them for a better life and improve
+                    their economic status.
+                </p>
+                <p>
+                    Evangelism is one of our major arms, which has led many
+                    villagers to Jesus Christ,and they have also joined the local church
+                    in the village.From January 2015 to December 2021, the Team
+                    has engaged in several welfare outreaches for the less privilege;
+                </p>
+                <p class="listOfWorks">
+                    <span class="item1"><i class="fa fa-square" style="color:orangered;"></i> 
+                          Free medical service.
+                    </span>
+                    <span class="item2"><i class="fa fa-square" style="color:orangered;"></i>
+                          Distribution of Food and clothing materials to widows, widowers and orphans
+                          every quarter of the year.
+                    </span>
+                    <span class="item3"><i class="fa fa-square" style="color:orangered;"></i> 
+                          Payment of tution fee and school examination fee for orphans.
+                    </span>
+                    <span class="item4"><i class="fa fa-square" style="color:orangered;"></i> 
+                        Giving soft grants to the widows, and missionaries' wives in order
+                        to start the free skill training they have acquired.
+                  </span>
+                </p>
+                <p>
+                    Finally in December 2021, the Lord instructed the steward in charge to God
+                    to several villages, gather the missionaries and their church workers and speak the word 
+                    of comfort and encouragement to them.
+                </p>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!--This is the div containing the Gallery---->
+     <div class="Gallery">
+        <div class="gallery" id="gallery">
+            <div class="galleryHeader">
+                <h1 class="galleryText"> GALLERY </h1>
+            </div>
+            <!-- Card Slider -->
+            <div class="slider-container">
+                <div class="swiper-container card-slider">
+                    <div class="swiper-wrapper">
+                        
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image1.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"> </p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image2.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"></p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image3.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image4.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image5.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image6.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image7.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image8.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image9.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image10.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                          <!-- Slide -->
+                          <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image11.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                          <!-- Slide -->
+                          <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image12.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                          <!-- Slide -->
+                          <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image13.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                          <!-- Slide -->
+                          <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image14.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                          <!-- Slide -->
+                          <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image15.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                          <!-- Slide -->
+                          <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image16.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                          <!-- Slide -->
+                          <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image17.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                          <!-- Slide -->
+                          <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image18.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                          <!-- Slide -->
+                          <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image19.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                          <!-- Slide -->
+                          <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image20.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                          <!-- Slide -->
+                          <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image21.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                          <!-- Slide -->
+                          <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image22.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                         <!-- Slide -->
+                         <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image23.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                         <!-- Slide -->
+                         <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image24.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                         <!-- Slide -->
+                         <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image25.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                         <!-- Slide -->
+                         <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image26.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                         <!-- Slide -->
+                         <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image27.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                         <!-- Slide -->
+                         <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image28.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                         <!-- Slide -->
+                         <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image29.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                         <!-- Slide -->
+                         <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image30.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+
+                         <!-- Slide -->
+                         <div class="swiper-slide">
+                            <div class="card">
+                                <img class="card-image" src="images\image31.png" alt="alternative">
+                                <div class="card-body">
+                                    <p class="testimonial-text"></p>
+                                    <p class="testimonial-author"> </p>
+                                </div>
+                            </div>        
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+                    
+                    </div> <!-- end of swiper-wrapper -->
+
+                    <!--For Pagination-->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- end of add arrows -->
+
+                </div> <!-- end of swiper-container -->
+            </div> <!-- end of slider-container -->
+            <!-- end of card slider -->
+
+        </div> 
+     </div>
+
+
+     <!--This is the div  containing the 'HOW TO GET INVOLVED'  container-->
+    <div class="howToGive" id="getInv">
+        <div class="howTo" 
+        style="background-image: url('images/brick-wall-painted-white.jpg'); background-size: cover; background-repeat: no-repeat;
+        background-blend-mode:darken;"
+        
+        >
+            <div class="getInvolved">
+                <div class="getIn">
+                    <h2 style="color: orangered;">HOW TO GET INVOLVED</h2>
+                    <p>
+                        <span><i class="fa fa-square" style="color:orangered;"></i> 
+                            You can be involved by your regular and faithful prayers for the ministry
+                            and steward in charge(you can request for our quaterly prayer bulletin).
+                      </span>
+                    </p>
+                    <p>
+                        <span><i class="fa fa-square" style="color:orangered;"></i> 
+                            You can send financial and material support  on a quaterly or monthly basis,
+                            as you are led by the Holy Spirit.
+                      </span>
+                    </p>
+                    <p>
+                        <span><i class="fa fa-square" style="color:orangered;"></i> 
+                            You can raise an academic scholarship for the Orphans and children of the widows
+                            and missionaries
+                      </span>
+                    </p>
+                    <p>
+                        <span><i class="fa fa-square" style="color:orangered;"></i> 
+                            You can tell someone; colleague, friend, family about this heavenly kingdom project
+                            , who can also be partakers.
+                      </span>
+                    </p>
+                    <p>
+                        <span><i class="fa fa-square" style="color:orangered;"></i> 
+                            You can make yourself available for our outreaches and field trips.
+                      </span>
+                    </p>
+                    <p>
+                        <span><i class="fa fa-square" style="color:orangered;"></i> 
+                            Your suggestions and advice are also welcomed for the progress of the
+                            assignment.
+                      </span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="whatWeNeed">
+                <div class="ourNeeds">
+                    <h2 style="color: orangered;">URGENTLY NEEDED MATERIALS</h2>
+                    <p>
+                        <span><i class="fa fa-square" style="color:orangered;"></i> 
+                           Sponsors and Scholarship offers for our orphans.
+                      </span>
+                    </p>
+                    <p>
+                        <span><i class="fa fa-square" style="color:orangered;"></i> 
+                            Equipments for the trained widows and orphans. 
+                      </span>
+                    </p>
+                    <p>
+                        <span><i class="fa fa-square" style="color:orangered;"></i> 
+                            Mission van to convey the missionaries from one place to another.
+                      </span>
+                    </p>
+                    <p>
+                        <span><i class="fa fa-square" style="color:orangered;"></i> 
+                            Plots of land to build village missionary training center and widows
+                            lodge (DORCAS WELFARE CENTER)
+                      </span>
+                    </p>
+                    <p>
+                        <span><i class="fa fa-square" style="color:orangered;"></i> 
+                           Registration of Rescue Team name to the Corprate Affairs Commission.
+                      </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-----This is the div containing "BANK ACCOUNT DETAILS"-->
+    <div class="giveTo">
+        <div class="give" id="give">
+            <div class="giveImg">
+                <img src="images/shine.jpg" alt=" Give">
+            </div>
+            <div class="accountDetail">
+                <div class="detail">
+                    <h2 class="GIVE" style="color: orangered;">
+                        GIVE
+                    </h2>
+                    <h3>
+                        IF YOU ARE MOVED BY THE HOLY SPIRIT 
+                        TO BLESS THIS COMMISSION, KINDLY MAKE A BANK DEPOSIT
+                        OR TRANSFER USING THESE DETAILS:
+                    </h3>
+                    <p>
+                        <span>
+                            <i class="fa fa-th" style="color: orangered; padding-right: 5px;"></i>
+                            BANK NAME: FIRST BANK PLC.
+                        </span>
+                    </p>
+                    <p>
+                        <span>
+                            <i class="fa fa-th" style="color: orangered; padding-right: 5px;"></i>
+                            ACCOUNT NUMBER: 3077176058.
+                        </span>
+                    </p>
+                    <p>
+                        <span>
+                            <i class="fa fa-th" style="color: orangered; padding-right: 5px;"></i>
+                            ACCOUNT NAME: ADEMOLA STEPHEN.
+                        </span>
+                    </p>
+                    <p>
+                        <span>
+                            <i class="fa fa-th" style="color: orangered; padding-right: 5px;"></i>
+                            OR CALL +2348035488298.
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--This is the div containing the "contact us" container -->
+    <div class="contactUs">
+        <div class="contact">
+
+            <h4 style="color: orangered;" id="contactUs">CONTACT US</h4>
+
+            <div class="contactDetails">
+              <div class="address">
+                <h5>MISSION OFFICE:</h5> 
+                <p>
+                Block F3, No 1-4 Oyo state 
+                Trade Fair Complex,<br>
+                Expoyo, opposite Ventura film 
+                house,<br>
+                Sango, Ibadan, Oyo State, Nigeria.
+                </p>
+            </div>
+              <div class="telephone">
+                <h5>TELEPHONE NO:</h5>
+                <p>0803 548 8298 </p>
+                <p>0903 313 8541 </p>
+                <p>0803 210 6193 </p>
+              </div>
+              <div class="socials">
+                <h5>SOCIALS:</h5>
+                <div class="facebook">
+                <div class="hex">
+                    <div class="bunt">
+                    <div class="bint">
+                        <i class="fa fa-facebook" id="bunts" style="color: white;"></i>
+                    </div>
+                    </div>
+                </div>
+                <span style="color: black;">Ademola Stephen</span>
+                </div>
+
+                <div class="whatsapp">
+                    <div class="hex">
+                        <div class="bunt">
+                        <div class="bint">
+                            <i class="fa fa-whatsapp" id="bunts" style="color: white;"></i>
+                        </div>
+                        </div>
+                    </div>
+                    <span style="color: black;">08035488298</span>
+                </div>
+
+                <div class="email">
+                    <div class="hex">
+                        <div class="bunt">
+                        <div class="bint">
+                            <i class="fa fa-google" id="bunts" style="color: white;"></i>
+                        </div>
+                        </div>
+                    </div>
+                    <span style="color: black;">adesteeve1414@gmail.com</span>
+                </div>
+
+              </div>  
+            </div>
+        </div>
+
+        <div class="copyright">
+            &copy; 2023
+        </div>
+
+    </div>
+
+
+
+     <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+
+     <script src="js/script.js"></script>
+ 
+</body>
+</html>
