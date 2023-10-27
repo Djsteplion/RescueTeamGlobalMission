@@ -226,7 +226,8 @@
 }
 
 .overlay p{
-    line-height:28px;
+    line-height:35px;
+    letter-spacing: 1px;
 }
 
 .listOfWorks span{
